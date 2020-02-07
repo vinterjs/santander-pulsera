@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+    <link rel="stylesheet" href="css/santander-fonts.css">
+    <link rel="stylesheet" href="icons/general/css/_icons.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="bg-std">
+    <div class="contenedor">
+        <div class="header-cam">
+            <h1>Pulsera Chip <span>Santander</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quae magni quasi aut, tempora atque accusantium error consequuntur esse, totam est laudantium alias assumenda quia! Non nostrum velit qui incidunt.</p>
+            <button class="btn-std btn_plano_icono waves-effect waves-grey-2">Ver m&aacute;s informaci&oacute;n<span class="icon-right-side srt srt-arrow-right"></span></button>
+        </div>
+        <div class="box select-tarjeta">
+            <p class="title-box-tarjeta">Selecciona tu tarjeta</p>
+            <p class="desc-box-tarj">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, blanditiis magnam sint itaque quo ex.</p>
+            <div class="cont-tarj">
+                <div class="select select--style">
+                    <div class="select__input">
+                        <select name="name" id="tarjeta-cam">
+                            <option value="null"></option>
+                            <option value="01">Mastercard Gold LATAM Pass</option>
+                            <option value="02">WorldMember Santander LATAM Pass</option>
+                            <option value="03">WorldMember Limited Santander LATAM Pass</option>
+                        </select>
+                        <label>Selecciona tu tarjeta</label>
+                        <div class="select__line"></div>
+                        <i class="down"></i>
+                    </div>
+                </div>
+                <div class="despliegue-tarjeta">
+                    <h3 class="tit-tarjeta">Datos de la tarjeta</h3>
+                    <ul class="info-tarjeta">
+                        <li>
+                            <span>Tarjeta</span>
+                            <span>Mastercard Gold Latam Pass</span>
+                        </li>
+                        <li>
+                            <span>N&deg; Tarjeta</span>
+                            <span>**** **** **** 7676</span>
+                        </li>
+                        <li>
+                            <span>Tipo</span>
+                            <span>Titular</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box ingresa-datos">
+            <p class="title-datos">Ingresa tus datos de contacto</p>
+            <div class="input-datos">
+                <div class="input-cont">
+                    <div class="input-std">
+                        <input id="email-cam" class="email" type="text" required autocomplete="off">
+                        <label>E-mail</label>
+                        <span class="linea-input"></span>
+                        <span class="msj-input-error">Ingrese un e-mail válido.</span>
+                    </div>
+                </div>
+                <div class="input-cont">
+                    <div class="input-std">
+                        <input id="tel-cam" class="soloNumeros telefono" type="text" required maxlength="9" autocomplete="off">
+                        <label>Tel&eacute;fono</label>
+                        <span class="linea-input"></span>
+                        <span class="codz">+56</span>
+                        <span class="msj-input-error">Ingrese un tel&eacute;fono v&aacute;lido.</span>
+                    </div>
+                </div>
+                <div class="input-cont">
+                    <div class="input-std">
+                        <input id="dir-cam" type="text" required autocomplete="off">
+                        <label>Direcci&oacute;n</label>
+                        <span class="linea-input"></span>
+                    </div>
+                </div>
+                <div class="input-cont">
+                    <div class="input-std">
+                        <input id="ofDep" class="" type="text" required autocomplete="off">
+                        <label>Oficina o Departamento</label>
+                        <span class="linea-input"></span>
+                    </div>
+                </div>
+                <div class="input-cont">
+                    <div class="select select--style">
+                        <div class="select__input">
+                          <select id="region-cam" name="name">
+                            <option value="null"></option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                          </select>
+                          <label>Regi&oacute;n</label>
+                          <div class="select__line"></div>
+                          <i class="down"></i>
+                        </div>
+                      </div>
+                </div>
+                <div class="input-cont">
+                    <div class="select select--style">
+                        <div class="select__input">
+                          <select id="com-cam" name="name">
+                            <option value="null"></option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                          </select>
+                          <label>Comuna</label>
+                          <div class="select__line"></div>
+                          <i class="down"></i>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="confirmacion-check">
+                <p class="cb-st">
+                    <label>
+                        <input id="declaro-cam" type="checkbox" class="check-std">
+                        <span>Declaro que esta informaci&oacute;b es ver&iacute;dica.</span>
+                        <span class="error-check-cam">Debes declarar veracidad de la informaci&oacute;n.</span>
+                    </label>
+                </p>
+            </div>
+        </div>
+        <div class="caja-clave">
+            <!--DESPLEGAR CLAVE AQUI-->
+
+            <!-- BOTON PARA LA CLAVE-->
+            <div class="cont-boton">
+                <button id="btnFormCam" class="btn-std btn_primario waves-effect waves-grey disabled">ACEPTAR <span class="icon-right-side srt srt-arrow-right"></span></button>
+            </div>
+            
+        </div>
+        <div class="box condiciones-gen">
+            <div class="js-accordion js-accordion--active">
+                <div class="box__head js-accordion__trigger">
+                  <p>Condiciones generales</p>
+                  <span class='srt srt-arrow-up-1px'></span>
+                </div>
+                <div class="box__body">
+                  <p class="box__body--conditions">
+                    Lorem ipsum
+                  </p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/funciones.js"></script>
+</body>
+</html>
